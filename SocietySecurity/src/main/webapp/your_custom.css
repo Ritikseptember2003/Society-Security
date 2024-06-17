@@ -1,0 +1,92 @@
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body fills the entire viewport height */
+}
+
+/* Header styles */
+h2 {
+    color: #007BFF;
+}
+
+/* Table styles */
+.table {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Table header styles */
+.table thead th {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+}
+
+/* Table rows alternation styles */
+.table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Links styles */
+.list-group-item a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.list-group-item a:hover {
+    color: #0056b3;
+}
+
+/* Card styles */
+.card {
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .col-md-8 {
+        width: 100%;
+    }
+}
+
+/* Footer styles */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto; /* Push the footer to the bottom of the page */
+}
+
+.footer a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
